@@ -22,9 +22,9 @@ public class SecurityConfiguration  extends WebSecurityConfigurerAdapter{
 		http.authorizeRequests()
 				.antMatchers("/login").permitAll()
 	//			.antMatchers("/", "/*todo*/**")
-	//			.access("hasRole('USER')")
+	//			//.access("hasRole('USER')")
 	//			.and().formLogin();
-	}
+	//}
 	*/
 	
 }
